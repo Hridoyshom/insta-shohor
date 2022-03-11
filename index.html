@@ -58,6 +58,7 @@
         </div>
     </main>
     <section class="container">
+
         <h2>How Does Javascript Work?</h2>
         <p id="q1">
             In our .js file we write our code that human can understand.But when we execute the code with our Browser it
@@ -73,6 +74,17 @@
 
         </p>
         <h2>How Does Event Loop Work?</h2>
+        <p id="q2">
+            We know that javascript is single thread synchronous programming language. But javascript also handle the
+            asynchronous programming.The browser api mainly perform an important role to execute the asynchronous called
+            functions.When the web api received these asynchronous called function then browser api start its own single
+            threaded operation. Whenver web api receives these kind of asynchronous call there comes the event loop to
+            execute the process. Let's explain with an example: setTiomeout method, when it is processed in the stack
+            then it is sent to the web api. Meanwhile javascript does its execution from the call stack. The event loop
+            constantly check that the call stack is empty or not.If the call stack is empty then functions like
+            setTiomeout is added to the call stack and javascript execute those functions. If it is not empty then
+            current function is being processed.
+        </p>
     </section>
     <footer></footer>
 
