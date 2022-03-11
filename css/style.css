@@ -256,3 +256,7 @@ img {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+#q1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
